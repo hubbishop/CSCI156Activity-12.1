@@ -7,7 +7,6 @@ def usermail():
 
     try:
         username, temp = email.split('@')
-        #print(username)
     except ValueError:
         return 'you must enter an @ symbol'
     try:
